@@ -1,0 +1,30 @@
+body{
+    max-width: 1000px;
+    text-align: center;
+
+}
+.main{
+    margin:130px 0 0 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 300px;
+    
+}
+.cal{
+      text-align: center;
+    padding: 10px 0  10px 0;
+    padding-top: 40px;
+    box-shadow: 5px 1px 15px 0px #000000;
+    background: linear-gradient(#e3a189,#b3b3e7);
+    
+}
+.btn{
+    width: 25%;
+
+}
+.btn:hover{
+    background: linear-gradient(#ed6e40,#4f4dcc);
+    color: white;
+    cursor: pointer;
+}
